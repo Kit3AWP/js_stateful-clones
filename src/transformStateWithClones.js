@@ -14,7 +14,7 @@ function transformStateWithClones(state, actions) {
     const newState = { ...currentState };
 
     switch (action.type) {
-      case 'default': {
+      default: {
         break;
       }
 
